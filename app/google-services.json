@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "186266652877",
+    "project_id": "chat-application-b70ed",
+    "storage_bucket": "chat-application-b70ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186266652877:android:ce6d064fd24560bf6d5984",
+        "android_client_info": {
+          "package_name": "com.example.letstalkapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186266652877-6t0jiagnsfi2s22k31ophde4mb91n4ue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJyWY8nMg3FXBcxjIgtfmFnekM2cvF5Q0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186266652877-6t0jiagnsfi2s22k31ophde4mb91n4ue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/const_mess"
+    android:layout_height="80dp"
+    android:background="@drawable/user_list_bg_selector"
+    android:paddingStart="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profile_img"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/lay_smaple"
+        android:scaleType="centerCrop"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0.5"
+        app:shapeAppearanceOverlay="@style/imageViewRounded"
+        android:background="@drawable/circle_transparent"/>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/andrea_joseph"
+        app:layout_constraintLeft_toRightOf="@id/profile_img"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.35"
+        app:layout_constraintHorizontal_bias="0"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/msg_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey! Hi vamsi, How are you?"
+        app:layout_constraintLeft_toRightOf="@id/profile_img"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_name"
+        app:layout_constraintBottom_toBottomOf="@id/profile_img"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:textSize="12sp"
+        android:layout_marginStart="20dp"
+        android:textColor="#555252"
+        android:fontFamily="@font/poppins"
+        android:textStyle="normal"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0.1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/msg_user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#555252"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintVertical_bias="1"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

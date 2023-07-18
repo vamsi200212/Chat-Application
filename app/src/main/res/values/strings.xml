@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lets Talk</string>
+    <string name="name_of_app">Let\'s Talk</string>
+    <string name="email_id">Email ID</string>
+    <string name="hint">ex : vamsi200212@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="hint_pass">********</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="teja_sai_vamsi_kanuri">Teja Sai Vamsi Kanuri</string>
+    <string name="full_name">Full Name</string>
+    <string name="messages">Messages</string>
+    <string name="andrea_joseph">Andrea Joseph</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="this_is_sent_message">This is sent message</string>
+    <string name="logout">Logout</string>
+</resources>

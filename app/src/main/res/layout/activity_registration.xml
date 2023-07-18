@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="117dp"
+            android:layout_height="118dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="86dp"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/lets_talk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#555252"
+            android:layout_marginTop="10dp"
+            app:layout_constraintRight_toRightOf="@id/logo"
+            app:layout_constraintTop_toBottomOf="@id/logo"
+            app:layout_constraintLeft_toLeftOf="@id/logo"
+            android:text="@string/create_account" />
+
+
+        <LinearLayout
+            android:id="@+id/edt_name_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toBottomOf="@id/lets_talk"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/full_name"
+                android:fontFamily="@font/poppins"
+                android:textSize="18sp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="7dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/edt_name"
+                android:background="@drawable/edt_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingTop="12dp"
+                android:inputType="textPersonName"
+                android:paddingBottom="12dp"
+                android:hint="@string/teja_sai_vamsi_kanuri"
+                android:textSize="15sp"
+                android:textColorHint="@drawable/hint_colors"
+                android:fontFamily="@font/poppins"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/edt_mail_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/edt_name_linear"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_id"
+                android:fontFamily="@font/poppins"
+                android:textSize="18sp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="7dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/edt_mail"
+                android:background="@drawable/edt_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingTop="12dp"
+                android:inputType="textEmailAddress"
+                android:paddingBottom="12dp"
+                android:hint="@string/hint"
+                android:textSize="15sp"
+                android:textColorHint="@drawable/hint_colors"
+                android:fontFamily="@font/poppins"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/edt_pass_linear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/edt_mail_linear"
+            app:layout_constraintLeft_toLeftOf="@id/edt_mail_linear"
+            app:layout_constraintRight_toRightOf="@id/edt_mail_linear">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:fontFamily="@font/poppins"
+                android:textSize="18sp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="7dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/edt_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_pass"
+                android:textSize="15sp"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:inputType="textPassword"
+                android:paddingBottom="10dp"
+                android:background="@drawable/edt_bg"
+                android:textColorHint="@drawable/hint_colors"
+                android:fontFamily="@font/poppins"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/edt_confirm_pass_linear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/edt_pass_linear"
+            app:layout_constraintLeft_toLeftOf="@id/edt_mail_linear"
+            app:layout_constraintRight_toRightOf="@id/edt_mail_linear">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm_password"
+                android:fontFamily="@font/poppins"
+                android:textSize="18sp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="7dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/edt_confirm_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_pass"
+                android:textSize="15sp"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:inputType="textPassword"
+                android:paddingBottom="10dp"
+                android:background="@drawable/edt_bg"
+                android:textColorHint="@drawable/hint_colors"
+                android:fontFamily="@font/poppins"/>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signup_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:fontFamily="@font/poppins"
+            android:textAllCaps="false"
+            android:background="@drawable/button_bg"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            app:layout_constraintTop_toBottomOf="@id/edt_confirm_pass_linear"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0"
+            android:layout_marginTop="25dp"/>
+
+        <LinearLayout
+            android:id="@+id/dont_have_acc_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toBottomOf="@id/signup_btn"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already a Member?"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"
+                android:layout_marginEnd="5dp" />
+
+            <TextView
+                android:id="@+id/signin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign in"
+                android:textColor="#3688FE"
+                android:fontFamily="@font/poppins"/>
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
