@@ -23,18 +23,18 @@ This Chat App project demonstrates effective utilization of Java, Android Studio
 
 ## Images
 
-![Alt Text](https://drive.google.com/file/d/1jHtHPbDcc_Rf_pxV9EgoZykTukBkpRYY)
+![Alt Text](https://drive.google.com/uc?id=1jHtHPbDcc_Rf_pxV9EgoZykTukBkpRYY)
 
-![Alt Text](https://drive.google.com/file/d/1tZWdyoHefTPMSrORoCVhkq7fEBy4B6iE)
+![Alt Text](https://drive.google.com/uc?id=1tZWdyoHefTPMSrORoCVhkq7fEBy4B6iE)
 
-![Alt Text](https://drive.google.com/file/d/1nqjNh92wQRHBmrEydMREwwEGWh8UZAJQ)
+![Alt Text](https://drive.google.com/uc?id=1nqjNh92wQRHBmrEydMREwwEGWh8UZAJQ)
 
-![Alt Text](https://drive.google.com/file/d/1-jcTgNY4q5VX2YFqYeNnCN2Np-qJ-MwF)
+![Alt Text](https://drive.google.com/uc?id=1-jcTgNY4q5VX2YFqYeNnCN2Np-qJ-MwF)
 
-![Alt Text](https://drive.google.com/file/d/1CH5KgJmB2mwM4XAQhwe7fKwRksmk8iid)
+![Alt Text](https://drive.google.com/uc?id=1CH5KgJmB2mwM4XAQhwe7fKwRksmk8iid)
 
-![Alt Text](https://drive.google.com/file/d/1c7F3iX-yrso8An-ECxSN4ZQXIDL2CjD6)
+![Alt Text](https://drive.google.com/uc?id=1c7F3iX-yrso8An-ECxSN4ZQXIDL2CjD6)
 
-![Alt Text](https://drive.google.com/file/d/1KGXNh88q5Sfwa7ZSQmKuT32N5fvUFkyD)
+![Alt Text](https://drive.google.com/uc?id=1KGXNh88q5Sfwa7ZSQmKuT32N5fvUFkyD)
 
-![Alt Text](https://drive.google.com/file/d/1Ocxt0rmh6cw_T0EshQF69Wafh9gqiPCq)
+![Alt Text](https://drive.google.com/uc?id=1Ocxt0rmh6cw_T0EshQF69Wafh9gqiPCq)
